@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this software version for the implementation; see THIRD_PARTY_NOTICES.md for research sources."
+title: "Norm Research Core"
+type: software
+version: 0.1.0
+date-released: 2026-10-14
+authors:
+  - family-names: Li
+    given-names: Chao
+repository-code: "https://github.com/ALulin1/norm-research-core"
+license: MIT

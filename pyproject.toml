@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "norm-research-core"
+version = "0.1.0"
+description = "Compact numerical primitives for norm perception, dynamics, control and support updates"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [{name = "Chao Li"}]
+dependencies = ["numpy>=1.26,<3", "scipy>=1.14,<2"]
+keywords = ["norms", "multi-agent", "nonlocal-dynamics", "research"]
+
+[project.urls]
+Repository = "https://github.com/ALulin1/norm-research-core"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+include-package-data = false
